@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    width: 30%;
+    border: 1px solid black;
+}
+.screen{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: rgb(246, 246, 212);
+}
+
+.prevalue{
+    text-align: end;
+    padding: 10px;
+}
+
+.calvalue{
+    text-align: end;
+    padding: 10px;
+
+}
+
+
+.prevalue p{
+font-size: 30px;
+color: grey;
+font-weight: 500;
+overflow-wrap: break-word;
+
+
+}
+
+.calvalue p{
+    font-size: 50px;
+    font-weight: bolder;
+    overflow-wrap: break-word;
+}
+
+
+.buttons{
+    width: 100%;
+    
+}
+.buttons div{
+    width: 100%;
+    display: flex;
+}
+.buttons div button{
+    width: 25%;
+    height: 100px;
+    outline: none;
+    background: black;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.buttons div button:hover{
+    background-color: grey;
+    border: 1px solid white;
+}
+
+.buttons .ac button{
+    width: 50%;
+}
